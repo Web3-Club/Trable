@@ -5,11 +5,13 @@
 
 
 <h2 align="center">
-  Enable travel without trouble
+  Enable travel without trouble.
 </h2>
 
 
 
 <h2 align="center">
-    ![25461702219436_ pic](https://github.com/Web3-Club/Trable/assets/76860915/1169195e-041b-4f83-b5a3-641e8337642d)
+  <img src="https://github.com/Web3-Club/Trable/assets/76860915/7e5a55f1-1486-4de6-a28e-7080e046f19d" alt="25461702219436_ pic">
 </h2>
+
+
