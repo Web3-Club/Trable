@@ -31,11 +31,13 @@
   
 </h3>
 
-### Project Introduction
+### 项目介绍｜Project Introduction
 
 Trable是一款针对加密货币支付的境外旅游产品Dapp应用。此应用通过集成Uniswap V4等技术，有效地简化了用户使用加密货币订购境外旅游产品的流程，缩减所需时间及降低DEX/CEX货币转换的成本。
 
 用户仅需选择所需的支付加密货币并完成签名，即可轻松在本Dapp预订境外旅游产品。我们解决了个人外汇额度限制和支付工具不足的问题，提供了必要的法币支付支持。同时，我们在链上实时监控资金流向，确保资金安全。在整个过程中，只会收取一次手续费，为用户的订购体验提供全面保障。
+
+---
 
 Trable is a DApp application designed for overseas travel products with a focus on cryptocurrency payments. By integrating technologies such as Uniswap V4, this application effectively streamlines the process for users to order overseas travel products using cryptocurrency, reducing the time required and lowering the cost of DEX-CEX currency conversions.
 
