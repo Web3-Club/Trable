@@ -1,7 +1,7 @@
 # Trable
 ## 2023 波卡冬季黑客松 参赛作品
 
-## English | [中文](https://github.com/Web3-Club/Trable/blob/main/docs/README_CN.md)
+### English | [中文](https://github.com/Web3-Club/Trable/blob/main/docs/README_CN.md)
 
 ### 项目立项日期
 
