@@ -71,11 +71,6 @@ Uniswap V4 consolidates all liquidity pools into a single contract, thereby savi
 #### Solidity
 
 
-
-### Project logo
-
-If we have
-
 ### Key Dapp Features
 
 #### Support for fiat currency payments（支持法币支付）
@@ -97,26 +92,6 @@ If we have
 ### Project demo
 
 
-
-## 黑客松期间计划完成的事项
-
-### 区块链端
-
-smart contract
-
-### 客户端
-
-Front-End
-
-## 黑客松期间所完成的事项
-
-### 最终完成的功能点
-
-### 完成的开发工作及代码结构
-
-### PPT等大文件链接地址
-
-## 使用方法
 
 
 
