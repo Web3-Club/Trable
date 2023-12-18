@@ -48,7 +48,9 @@ Users simply need to select the desired cryptocurrency for payment and complete 
 
 <br>
 
-<img src="https://github.com/Web3-Club/Trable/assets/76860915/7e5a55f1-1486-4de6-a28e-7080e046f19d" alt="25461702219436_ pic" style="width: 50%; display: block; margin: 0 auto;">
+<h1 align="center">
+  <img src="https://github.com/Web3-Club/Trable/assets/76860915/7e5a55f1-1486-4de6-a28e-7080e046f19d" alt="25461702219436_ pic" style="width: 50%; display: block; margin: 0 auto;">
+</h1>
 
 ### 基本技术架构｜Basic technical architecture
 
