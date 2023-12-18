@@ -27,6 +27,7 @@
 
 #### 链上-DEX-CEX-法币-非本国法币支付
 
+##### 弊端
 
 - ❌ DEX转换磨损
    
@@ -36,13 +37,19 @@
   
 - ❌ 非本国发币支付货币转换费
 
-- ✅ 一步签名即到位 仅收取较少费用
 
-#### 流程图
+#### 流程图演示
 
 <h1 align="center">
   <img src="https://github.com/Web3-Club/Trable/assets/76860915/b89cd0bd-34f7-404d-b0de-8ff321357266" alt="25461702219436_ pic" style="width: 50%; display: block; margin: 0 auto;">
 </h1>
+
+
+#### Trable想要做到的
+
+- ✅ 一步签名即到位 仅收取较少费用
+
+
 
 对此我们的项目提出解决方案，优化资产转换流程，提升用户在Web3的体验。
 
