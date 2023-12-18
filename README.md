@@ -51,9 +51,11 @@ Trable是一款针对加密货币支付的境外旅游产品Dapp应用。
 
 ---
 
-Trable is a DApp application designed for overseas travel products with a focus on cryptocurrency payments. By integrating technologies such as Uniswap V4, this application effectively streamlines the process for users to order overseas travel products using cryptocurrency, reducing the time required and lowering the cost of DEX-CEX currency conversions.
+Trable is an overseas travel product Dapp application for cryptocurrency payment.
 
-Users simply need to select the desired cryptocurrency for payment and complete the signature, making it easy to book overseas travel products through this DApp. We address issues such as individual foreign exchange limits and insufficient payment tools by providing necessary fiat currency payment support. Additionally, we monitor the flow of funds in real-time on the blockchain to ensure the security of funds. Throughout the entire process, a single transaction fee is charged, offering comprehensive protection for the user's booking experience.
+This application integrates Uniswap V4 and other technologies and relies on the Acala and Moonbean platforms in the Polkadot ecosystem to effectively simplify the process for users to order overseas travel products using cryptocurrency, shorten the time required for consumers and reduce the cost of DEX/CEX currency conversion. .
+
+Users only need to select the required payment password and complete the signature to easily book overseas travel products on this Dapp. We have solved the problems of personal foreign exchange limit limits and insufficient payment tools, and provided necessary legal currency payment support. At the same time, we monitor the flow of funds in real time on the chain to ensure the safety of funds. During the entire process, only one handling fee will be charged, providing comprehensive protection for users’ ordering experience.
 
 <br>
 
