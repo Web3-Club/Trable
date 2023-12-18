@@ -127,9 +127,9 @@ Front-End
 ## 队员信息
 
 GitHub:
-@yanboishere
-@lbr77 
-@s7iter
+[@yanboishere](https://github.com/yanboishere)
+[@s7iter](https://github.com/s7iter)
+[@Jerry]()
 
 WeChat:
 @ZZJZZJ9248
