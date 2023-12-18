@@ -112,7 +112,7 @@ Uniswap V4 consolidates all liquidity pools into a single contract, thereby savi
 GitHub:
 [@yanboishere](https://github.com/yanboishere)
 [@s7iter](https://github.com/s7iter)
-[@Jerry]()
+[@Jerry](https://github.com/Web3-Jerry)
 
 WeChat:
 @ZZJZZJ9248
