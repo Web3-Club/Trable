@@ -126,11 +126,17 @@ Front-End
 
 ## 队员信息
 
-（以下为GitHub）
+GitHub:
 @yanboishere
 @lbr77 
 @s7iter
 
-（以下为WeChat）
+WeChat:
 @ZZJZZJ9248
+
+## Contect
+
+[![Twitter](https://img.shields.io/badge/@YanboOfficial-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/YanboOfficial)
+[![Telegram](https://img.shields.io/badge/@YanboWang-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/yanbowang)
+[![Mail](https://img.shields.io/badge/yanbotravelaroundworld@gmail.com-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:yanbotravelaroundworld@gmail.com)
 
