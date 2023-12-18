@@ -93,7 +93,7 @@ Uniswap V4 consolidates all liquidity pools into a single contract, thereby savi
 
 
 #### Solidity
-
+为了是项目构建在Uniswap V3上 实现未来对于Uniswap V4的支持 我们在项目合约上使用了Solidity语言 对项目进行了构建
 
 ### Key Dapp Features
 
