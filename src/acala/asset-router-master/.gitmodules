@@ -1,0 +1,19 @@
+[submodule "lib/forge-std"]
+	path = lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+	branch = v1.4.0
+[submodule "lib/solmate"]
+	path = lib/solmate
+	url = https://github.com/transmissions11/solmate
+[submodule "lib/openzeppelin-contracts"]
+	path = lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+	branch = v4.8.1
+[submodule "lib/wormhole"]
+	path = lib/wormhole
+	url = https://github.com/wormhole-foundation/wormhole
+	branch = v2.14.9
+[submodule "lib/predeploy-contracts"]
+	path = lib/predeploy-contracts
+	url = https://github.com/AcalaNetwork/predeploy-contracts
+	branch = v4.3.5

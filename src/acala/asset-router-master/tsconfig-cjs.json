@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "declaration": true
+  },
+  "include": [
+    "./typechain-types",
+    "./scripts/consts.ts",
+    "./scripts/utils.ts",
+  ]
+}

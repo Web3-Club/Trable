@@ -1,0 +1,55 @@
+{
+  "name": "@acala-network/asset-router",
+  "version": "1.0.12",
+  "main": "dist/index.js",
+  "repository": "git@github.com:AcalaNetwork/asset-router.git",
+  "author": "Acala Developers <hello@acala.network>",
+  "license": "UNLICENSED",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": " hardhat compile",
+    "build:dist": "yarn build && tsc -p tsconfig-cjs.json && mv ./dist/scripts/* ./dist && rm -rf ./dist/scripts",
+    "test": "hardhat test",
+    "lint": "eslint scripts",
+    "clean": "rm -rf out/ cache* typechain-types dist/",
+    "prepublish": "yarn clean && yarn build:dist"
+  },
+  "dependencies": {
+    "@acala-network/contracts": "^4.5.0",
+    "@acala-network/eth-providers": "^2.7.13",
+    "@certusone/wormhole-sdk": "^0.9.11",
+    "@ethersproject/abi": "^5.7.0",
+    "@ethersproject/providers": "^5.7.0",
+    "@polkadot/util-crypto": "^12.5.1",
+    "ethers": "^5.7.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.0",
+    "@nomicfoundation/hardhat-foundry": "^1.0.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@nomiclabs/hardhat-etherscan": "^3.0.0",
+    "@typechain/ethers-v5": "^10.1.0",
+    "@typechain/hardhat": "^6.1.2",
+    "@types/chai": "^4.2.0",
+    "@types/mocha": ">=9.1.0",
+    "@types/node": ">=12.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
+    "@typescript-eslint/parser": "^5.55.0",
+    "chai": "^4.2.0",
+    "dotenv": "^16.3.1",
+    "eslint": "^8.36.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-sort-imports-es6-autofix": "^0.6.0",
+    "hardhat": "^2.13.0",
+    "hardhat-gas-reporter": "^1.0.8",
+    "solidity-coverage": "^0.8.0",
+    "ts-node": ">=8.0.0",
+    "typechain": "^8.1.0",
+    "typescript": ">=4.5.0"
+  },
+  "packageManager": "yarn@3.5.0"
+}

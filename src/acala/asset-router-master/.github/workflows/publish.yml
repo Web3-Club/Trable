@@ -1,0 +1,42 @@
+name: Publish
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+        with:
+          submodules: 'recursive'
+
+      - name: setup node env
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: setup Foundry
+        uses: foundry-rs/foundry-toolchain@v1
+
+      - name: install dependencies
+        run: yarn install --immutable
+
+      - name: build package
+        run: yarn build:dist
+
+      - name: publish package if version changed
+        run: |
+          PACKAGE_VERSION=$(cat package.json | jq -r .version)
+          NPM_VERSION=$(npm show @acala-network/asset-router version)
+
+          if [ "$PACKAGE_VERSION" != "$NPM_VERSION" ]; then
+            npm publish --access public
+          else
+            echo "Version $PACKAGE_VERSION is already published."
+          fi
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
