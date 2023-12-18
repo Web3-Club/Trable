@@ -2,6 +2,11 @@
   <span style="font-size: 32px;">Trable</span>
 </h1>
 
+
+<h1 align="center">
+  <img src="https://github.com/Web3-Club/Trable/assets/76860915/7e5a55f1-1486-4de6-a28e-7080e046f19d" alt="25461702219436_ pic" style="width: 50%; display: block; margin: 0 auto;">
+</h1>
+
 <h2 align="center">
   Enable pay in travel without trouble.
 </h2>
@@ -47,10 +52,6 @@ Trable is a DApp application designed for overseas travel products with a focus 
 Users simply need to select the desired cryptocurrency for payment and complete the signature, making it easy to book overseas travel products through this DApp. We address issues such as individual foreign exchange limits and insufficient payment tools by providing necessary fiat currency payment support. Additionally, we monitor the flow of funds in real-time on the blockchain to ensure the security of funds. Throughout the entire process, a single transaction fee is charged, offering comprehensive protection for the user's booking experience.
 
 <br>
-
-<h1 align="center">
-  <img src="https://github.com/Web3-Club/Trable/assets/76860915/7e5a55f1-1486-4de6-a28e-7080e046f19d" alt="25461702219436_ pic" style="width: 50%; display: block; margin: 0 auto;">
-</h1>
 
 ### 基本技术架构｜Basic technical architecture
 
