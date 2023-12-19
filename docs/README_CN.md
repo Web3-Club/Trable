@@ -77,8 +77,7 @@ Trable是一款针对加密货币支付的境外旅游产品Dapp应用。
 
 Uniswap V4将所有资金池都存储在一个合约中，从而节省了大量的燃料成本，因为兑换将不再需要在不同的合约中的资金池之间转移代币。
 
-
-<img width="320" alt="截屏2023-12-18 下午4 25 48" src="https://github.com/Web3-Club/Trable/assets/76860915/1c5708e4-c08d-4a94-a190-9f49646b0f2b">
+> <img width="320" alt="截屏2023-12-18 下午4 25 48" src="https://github.com/Web3-Club/Trable/assets/76860915/1c5708e4-c08d-4a94-a190-9f49646b0f2b">
 
 ## Acala
 
