@@ -94,19 +94,19 @@ Uniswap V4将所有资金池都存储在一个合约中，从而节省了大量�
 
 ### Key Dapp Features
 
-- Support for fiat currency payments（支持法币支付）
+- 支持法币支付
 
 确保旅游产品跨境crypto直接支付的便利性
 
-- Fast transactions anytime, anywhere（随时随地、快速交易）
+- 随时随地、快速交易
 
 简化虚拟货币转移过程（多链资产转换）
 
-- Save time and effort, lower loss（省时省力、更低损耗）
+- 省时省力、更低损耗
 
 结合Uniswap V4 降低多种token的swap成本，减少不必要的原始资产的转换和支付磨损
 
-- No need to consider personal foreign exchange restrictions（无需考虑个人外汇限制）
+- 无需考虑个人外汇限制
 
 不受传统银行外汇限额的影响，更流畅的旅行体验
 
