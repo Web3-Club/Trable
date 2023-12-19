@@ -11,7 +11,7 @@
   <img src="https://github.com/Web3-Club/Trable/assets/76860915/7e5a55f1-1486-4de6-a28e-7080e046f19d" alt="25461702219436_ pic" style="width: 50%; display: block; margin: 0 auto;">
 </h1>
 
-### English | [中文](https://github.com/Web3-Club/Trable/blob/main/docs/README_CN.md)
+### [English]((https://github.com/Web3-Club/Trable/blob/main/docs/README.md)) | 中文
 
 
 ## 前言
