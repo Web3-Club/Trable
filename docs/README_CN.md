@@ -11,7 +11,7 @@
   <img src="https://github.com/Web3-Club/Trable/assets/76860915/7e5a55f1-1486-4de6-a28e-7080e046f19d" alt="25461702219436_ pic" style="width: 50%; display: block; margin: 0 auto;">
 </h1>
 
-### English | [中文](https://github.com/Web3-Club/Trable/blob/main/docs/README_CN.md)
+### [English]((https://github.com/Web3-Club/Trable/blob/main/docs/README.md)) | 中文
 
 
 ## 前言
@@ -59,7 +59,7 @@
 
 
 
-### 项目介绍｜Project Introduction
+### 项目介绍
 
 Trable是一款针对加密货币支付的境外旅游产品Dapp应用。
 
@@ -67,17 +67,9 @@ Trable是一款针对加密货币支付的境外旅游产品Dapp应用。
 
 用户仅需选择所需的支付加密货币并完成签名，即可轻松在本Dapp预订境外旅游产品。我们解决了个人外汇额度限制和支付工具不足的问题，提供了必要的法币支付支持。同时，我们在链上实时监控资金流向，确保资金安全。在整个过程中，只会收取一次手续费，为用户的订购体验提供全面保障。
 
----
-
-Trable is an overseas travel product Dapp application for cryptocurrency payment.
-
-This application integrates Uniswap V4 and other technologies and relies on the Acala and Moonbean platforms in the Polkadot ecosystem to effectively simplify the process for users to order overseas travel products using cryptocurrency, shorten the time required for consumers and reduce the cost of DEX/CEX currency conversion. .
-
-Users only need to select the required payment password and complete the signature to easily book overseas travel products on this Dapp. We have solved the problems of personal foreign exchange limit limits and insufficient payment tools, and provided necessary legal currency payment support. At the same time, we monitor the flow of funds in real time on the chain to ensure the safety of funds. During the entire process, only one handling fee will be charged, providing comprehensive protection for users’ ordering experience.
-
 <br>
 
-### 基本技术架构｜Basic technical architecture
+### 基本技术架构
 
 #### Uniswap V4
 
@@ -85,9 +77,6 @@ Users only need to select the required payment password and complete the signatu
 
 Uniswap V4将所有资金池都存储在一个合约中，从而节省了大量的燃料成本，因为兑换将不再需要在不同的合约中的资金池之间转移代币。
 
-In Uniswap V3, each liquidity pool is deployed with its own individual contract, resulting in higher costs for creating pools and executing multi-pool exchanges.
-
-Uniswap V4 consolidates all liquidity pools into a single contract, thereby saving significant gas costs. This is because exchanges will no longer require the transfer of tokens between pools in different contracts.
 
 <img width="320" alt="截屏2023-12-18 下午4 25 48" src="https://github.com/Web3-Club/Trable/assets/76860915/1c5708e4-c08d-4a94-a190-9f49646b0f2b">
 
@@ -105,23 +94,23 @@ Uniswap V4 consolidates all liquidity pools into a single contract, thereby savi
 
 ### Key Dapp Features
 
-- Support for fiat currency payments（支持法币支付）
+- 支持法币支付
 
 确保旅游产品跨境crypto直接支付的便利性
 
-- Fast transactions anytime, anywhere（随时随地、快速交易）
+- 随时随地、快速交易
 
 简化虚拟货币转移过程（多链资产转换）
 
-- Save time and effort, lower loss（省时省力、更低损耗）
+- 省时省力、更低损耗
 
 结合Uniswap V4 降低多种token的swap成本，减少不必要的原始资产的转换和支付磨损
 
-- No need to consider personal foreign exchange restrictions（无需考虑个人外汇限制）
+- 无需考虑个人外汇限制
 
 不受传统银行外汇限额的影响，更流畅的旅行体验
 
-### Project demo
+### 项目demo
 
 
 
@@ -144,7 +133,7 @@ GitHub:
 WeChat:
 @ZZJZZJ9248
 
-## Contect
+## 联系我们
 
 [![Twitter](https://img.shields.io/badge/@Web3Club-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/Web3ClubCN)
 [![Telegram](https://img.shields.io/badge/@Web3Club-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Web3ClubCN)
