@@ -96,7 +96,12 @@ In Uniswap V3, each liquidity pool is deployed with its own individual contract,
 
 Uniswap V4 consolidates all liquidity pools into a single contract, thereby saving significant gas costs. This is because exchanges will no longer require the transfer of tokens between pools in different contracts.
 
-<img width="320" alt="截屏2023-12-18 下午4 25 48" src="https://github.com/Web3-Club/Trable/assets/76860915/1c5708e4-c08d-4a94-a190-9f49646b0f2b">
+
+<h1 align="center">
+  <img src="https://github.com/Web3-Club/Trable/assets/76860915/1c5708e4-c08d-4a94-a190-9f49646b0f2b" alt="25461702219436_ pic" style="width: 200%; display: block; margin: 0 auto;">
+</h1>
+
+
 
 
 
