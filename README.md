@@ -147,9 +147,7 @@ GitHub:
 [@yanboishere](https://github.com/yanboishere)
 [@s7iter](https://github.com/s7iter)
 [@Jerry](https://github.com/Web3-Jerry)
-
-WeChat:
-@ZZJZZJ9248
+[@zijin79](https://github.com/zijin79)
 
 ## Contect
 
