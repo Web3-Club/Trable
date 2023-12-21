@@ -27,7 +27,7 @@ With the growing Web3 ecosystem, more and more people are entering the Web3 indu
 
 Traditional crypto payment process for overseas travel products:
 
-Cryptocurrency - DEX - CEX - Fiat currency - Foreign fiat currency payment
+    Cryptocurrency - DEX - CEX - Fiat currency - Foreign fiat currency payment
 
 
 ### Flowchart Demo
