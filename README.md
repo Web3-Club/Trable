@@ -125,8 +125,11 @@ Uniswap V4 consolidates all liquidity pools into a single contract, thereby savi
 
 
 <h1 align="center">
-  <img src="https://github.com/Web3-Club/Trable/assets/76860915/1c5708e4-c08d-4a94-a190-9f49646b0f2b" alt="25461702219436_ pic" style="width: 200%; display: block; margin: 0 auto;">
+  <img src="https://github.com/Web3-Club/Trable/assets/76860915/410be736-3518-47ec-af66-78ce7683740e" alt="25461702219436_ pic" style="width: 200%; display: block; margin: 0 auto;">
 </h1>
+
+
+
 
 ### Solidity
 
