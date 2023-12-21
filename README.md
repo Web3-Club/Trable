@@ -101,19 +101,6 @@ B --> Z -->F --> D
 
 To address these challenges, our project proposes a solution that optimizes the asset conversion process and enhances users' Web3 experience. In the post-pandemic era, the travel industry is thriving, and Trable aims to enter this vast market by offering unique value propositions.
 
-## Acala asset router technical analysis
-
-We aim to help users who want to pay their travel fee directly through polka related asset like DOT. Thus transfering polka asset from parachain to USDC on EVM is our primary target. 
-
-We utilize acala asset router to achieve the target. The following 6 steps describe how it works in detail.
-
-- 1. In our front page, users only need to select the source and target chains, as well as the token to transfer. As we can see in the demo video. Our web extension will save order information and jump to trable payment page.
-- 2. The second step is get a router address on karura network. In our project, we will send a shoudRounteWormhole request. 
-- 3. We will pop a signature request that prompts users to sign a transtraction from parachain to karura chain
-- 4. After the signature, we will send tokens to wormhole. In our code, the routeWormhole will achieve this.
-- 5. After send the  token, router will be listening and waiting for VAA. After fetch it, the router interact with wormhole core contract。
-- 6. At the final step, user will sign a transaction with MetaMask that redeems the token on the target EVM chain.
-
 
 ### Project Introduction
 
@@ -176,6 +163,9 @@ The project includes test cases for contract functionality, ensuring the correct
 
 
 ## Project demo
+
+### Video
+https://youtu.be/ujFpy4i8USQ
 
 
 
