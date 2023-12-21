@@ -30,7 +30,7 @@ Traditional crypto payment process for overseas travel products:
 Cryptocurrency - DEX - CEX - Fiat currency - Foreign fiat currency payment
 
 
-#### 流程图演示
+### 流程图演示
 
 ```mermaid
 graph TD
@@ -62,15 +62,12 @@ graph TD
   E --> |Currency Conversion Fee| F
 ```
 
-##### 弊端
 
-- ❌ DEX转换磨损
-   
-- ❌ CEX交易手续费  
-   
-- ❌ 出金汇率磨损
-  
-- ❌ 非本国发币支付货币转换费
+### Drawbacks:
+• ❌ DEX conversion friction costs
+• ❌ CEX transaction fees
+• ❌ Currency conversion loss during withdrawal
+• ❌ Currency conversion fees for foreign money payments
 
 
 
