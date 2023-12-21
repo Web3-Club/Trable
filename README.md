@@ -47,18 +47,62 @@
 
 #### 流程图演示
 
-<h1 align="center">
-  <img src="https://github.com/Web3-Club/Trable/assets/76860915/b89cd0bd-34f7-404d-b0de-8ff321357266" alt="25461702219436_ pic" style="width: 50%; display: block; margin: 0 auto;">
-</h1>
+```mermaid
+graph TD
+  subgraph Multi-chain Token
+    A1[main network]
+    A2[Layer2 Token]
+    A3[other Tokens]
+  end
+
+  B[Cross-chain Bridge]
+
+  subgraph DEX/CEX
+    C1[DEX1]
+    C2[CEX1]
+    C3[DEX2]
+  end
+
+  subgraph Monetary Conversion
+    D[c2c domestic currency deposit and withdrawal]
+    D1[Conversion of various legal currencies.]
+  end
+
+  E[Credit Card<br>visa/mastercard/China UnionPay/JCB/American Express]
+  F[Payment for Overseas Products]
+
+  A1 -->|Asset Replacement| B -->|gas consumption<br>Waiting for the payment to be credited.| C1 -->|Asset Transfer| C2 
+  A2 -->|Asset Replacement| B -->|gas consumption<br>Waiting for the payment to be credited.| C2 -->|Asset Transfer| D
+  A3 -->|Asset Replacement| B -->|gas consumption<br>Waiting for the payment to be credited.| C3 -->|Asset Transfer| D -->|Rate Discount| D1 --> E
+  E --> |Currency Conversion Fee| F
+```
 
 
 #### Trable想要做到的
 
 - ✅ 一步签名即到位 仅收取较少费用
 
-<h1 align="center">
-  <img src="https://github.com/Web3-Club/Trable/assets/76860915/5fa6728f-26fa-4a68-8980-ee6e73b78dff" alt="25461702219436_ pic" style="width: 50%; display: block; margin: 0 auto;">
-</h1>
+
+```mermaid
+graph TD
+  C[The user has explicitly paid for the product.]
+  subgraph User Action
+    A1[main networdk]
+    A2[Layer2 Token]
+    A3[Multi-chain Token]
+  end
+  subgraph  Trable
+    B[Signature confirmation]
+    F[Stablecoin]
+    Z[uniswap V4<br>hook pool]
+    D[Payment Successful]
+  end
+
+C --> A1 --> B
+C --> A2 --> B
+C --> A3 --> B 
+B --> Z -->F --> D
+```
 
 对此我们的项目提出解决方案，优化资产转换流程，提升用户在Web3的体验。
 
