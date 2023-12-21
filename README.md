@@ -64,6 +64,18 @@ graph TD
 ```
 
 
+### Drawbacks:
+• ❌ DEX conversion friction costs
+• ❌ CEX transaction fees
+• ❌ Currency conversion loss during withdrawal
+• ❌ Currency conversion fees for foreign money payments
+
+
+Trable's Objective:
+• ✅ One-step signing, minimal fees
+
+
+
 ```mermaid
 graph TD
   C[The user has explicitly paid for the product.]
@@ -85,16 +97,6 @@ C --> A3 --> B
 B --> Z -->F --> D
 ```
 
-
-### Drawbacks:
-• ❌ DEX conversion friction costs
-• ❌ CEX transaction fees
-• ❌ Currency conversion loss during withdrawal
-• ❌ Currency conversion fees for foreign money payments
-
-
-Trable's Objective:
-• ✅ One-step signing, minimal fees
 
 
 To address these challenges, our project proposes a solution that optimizes the asset conversion process and enhances users' Web3 experience. In the post-pandemic era, the travel industry is thriving, and Trable aims to enter this vast market by offering unique value propositions.
