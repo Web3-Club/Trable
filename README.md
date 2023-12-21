@@ -30,7 +30,8 @@ Traditional crypto payment process for overseas travel products:
 Cryptocurrency - DEX - CEX - Fiat currency - Foreign fiat currency payment
 
 
-### 流程图演示
+### Flowchart Demo
+
 
 ```mermaid
 graph TD
@@ -63,20 +64,6 @@ graph TD
 ```
 
 
-### Drawbacks:
-• ❌ DEX conversion friction costs
-• ❌ CEX transaction fees
-• ❌ Currency conversion loss during withdrawal
-• ❌ Currency conversion fees for foreign money payments
-
-
-
-
-#### Trable想要做到的
-
-- ✅ 一步签名即到位 仅收取较少费用
-
-
 ```mermaid
 graph TD
   C[The user has explicitly paid for the product.]
@@ -97,6 +84,24 @@ C --> A2 --> B
 C --> A3 --> B 
 B --> Z -->F --> D
 ```
+
+
+### Drawbacks:
+• ❌ DEX conversion friction costs
+• ❌ CEX transaction fees
+• ❌ Currency conversion loss during withdrawal
+• ❌ Currency conversion fees for foreign money payments
+
+
+Trable's Objective:
+• ✅ One-step signing, minimal fees
+
+
+To address these challenges, our project proposes a solution that optimizes the asset conversion process and enhances users' Web3 experience. In the post-pandemic era, the travel industry is thriving, and Trable aims to enter this vast market by offering unique value propositions.
+
+
+
+
 
 对此我们的项目提出解决方案，优化资产转换流程，提升用户在Web3的体验。
 
