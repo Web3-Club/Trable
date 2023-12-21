@@ -21,31 +21,17 @@
 ### English | [中文](https://github.com/Web3-Club/Trable/blob/main/docs/README_CN.md)
 
 
-## 前言
+## Introduction
+
+With the growing Web3 ecosystem, more and more people are entering the Web3 industry, leading to an increasing number of individuals using cryptocurrencies for payments of products and services. However, the process of completing a purchase has become cumbersome, especially when it involves overseas products, requiring multiple asset conversions. This process is time-consuming and incurs high costs.
+
+Traditional crypto payment process for overseas travel products:
+
+Cryptocurrency - DEX - CEX - Fiat currency - Foreign fiat currency payment
 
 
-随着Web3生态的不断壮大，越来越多的人跻身Web3行业，自然有越来越多的人使用加密货币进行产品和服务的支付。
+### Flowchart Demo
 
-但如今想要走完购买的全流程非常繁琐（尤其涉及到境外产品时），中间需经历数次的资产置换。
-
-这个过程不仅耗时，还会对用户原先的资产产生多次消耗，成本高昂。
-
-### 传统crypto支付境外旅游产品过程
-
-#### 链上-DEX-CEX-法币-非本国法币支付
-
-##### 弊端
-
-- ❌ DEX转换磨损
-   
-- ❌ CEX交易手续费  
-   
-- ❌ 出金汇率磨损
-  
-- ❌ 非本国发币支付货币转换费
-
-
-#### 流程图演示
 
 ```mermaid
 graph TD
@@ -78,9 +64,16 @@ graph TD
 ```
 
 
-#### Trable想要做到的
+### Drawbacks:
+• ❌ DEX conversion friction costs
+• ❌ CEX transaction fees
+• ❌ Currency conversion loss during withdrawal
+• ❌ Currency conversion fees for foreign money payments
 
-- ✅ 一步签名即到位 仅收取较少费用
+
+Trable's Objective:
+• ✅ One-step signing, minimal fees
+
 
 
 ```mermaid
@@ -103,6 +96,14 @@ C --> A2 --> B
 C --> A3 --> B 
 B --> Z -->F --> D
 ```
+
+
+
+To address these challenges, our project proposes a solution that optimizes the asset conversion process and enhances users' Web3 experience. In the post-pandemic era, the travel industry is thriving, and Trable aims to enter this vast market by offering unique value propositions.
+
+
+
+
 
 对此我们的项目提出解决方案，优化资产转换流程，提升用户在Web3的体验。
 
@@ -128,7 +129,7 @@ Users only need to select the required payment password and complete the signatu
 
 <br>
 
-### 基本技术架构｜Basic technical architecture
+### Basic technical architecture
 
 #### Uniswap V4
 
@@ -145,47 +146,40 @@ Uniswap V4 consolidates all liquidity pools into a single contract, thereby savi
   <img src="https://github.com/Web3-Club/Trable/assets/76860915/1c5708e4-c08d-4a94-a190-9f49646b0f2b" alt="25461702219436_ pic" style="width: 200%; display: block; margin: 0 auto;">
 </h1>
 
+### Solidity
+
+- The project is built on Uniswap V3 to ensure future support for Uniswap V4. We utilized the Solidity for the project's smart contracts.
 
 
+###  Frontend
 
-
-
-#### Solidity
-为了是项目构建在Uniswap V3上 实现未来对于Uniswap V4的支持 我们在项目合约上使用了Solidity语言 对项目进行了构建
-
-### 前端
-
-项目前端仓库:[Trable-froutend](https://github.com/Web3-Club/Trable-frontend)
+Project frontend repository:[Trable-froutend](https://github.com/Web3-Club/Trable-frontend)
 
 [Demo](https://trable-fe.vercel.app/)
 
-### Key Dapp Features
+## Key Dapp Features
 
-- Support for fiat currency payments（支持法币支付）
+- Support for fiat currency payments
 
-确保旅游产品跨境crypto直接支付的便利性
 
-- Fast transactions anytime, anywhere（随时随地、快速交易）
+- Fast transactions anytime, anywhere
 
-简化虚拟货币转移过程（多链资产转换）
 
-- Save time and effort, lower loss（省时省力、更低损耗）
+- Save time and effort, lower loss
 
-结合Uniswap V4 降低多种token的swap成本，减少不必要的原始资产的转换和支付磨损
 
-- No need to consider personal foreign exchange restrictions（无需考虑个人外汇限制）
-
-不受传统银行外汇限额的影响，更流畅的旅行体验
-
-### Project demo
+- No need to consider personal foreign exchange restrictions
 
 
 
 
 
-## 测试
 
-项目包含了针对合约功能的测试用例，确保了各项功能的正确性和安全性。
+## Testing
+The project includes test cases for contract functionality, ensuring the correctness and security of each feature.
+
+
+## Project demo
 
 
 
