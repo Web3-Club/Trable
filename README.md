@@ -129,7 +129,7 @@ Users only need to select the required payment password and complete the signatu
 
 <br>
 
-### 基本技术架构｜Basic technical architecture
+### Basic technical architecture
 
 #### Uniswap V4
 
@@ -146,47 +146,40 @@ Uniswap V4 consolidates all liquidity pools into a single contract, thereby savi
   <img src="https://github.com/Web3-Club/Trable/assets/76860915/1c5708e4-c08d-4a94-a190-9f49646b0f2b" alt="25461702219436_ pic" style="width: 200%; display: block; margin: 0 auto;">
 </h1>
 
+### Solidity
+
+- The project is built on Uniswap V3 to ensure future support for Uniswap V4. We utilized the Solidity for the project's smart contracts.
 
 
+###  Frontend
 
-
-
-#### Solidity
-为了是项目构建在Uniswap V3上 实现未来对于Uniswap V4的支持 我们在项目合约上使用了Solidity语言 对项目进行了构建
-
-### 前端
-
-项目前端仓库:[Trable-froutend](https://github.com/Web3-Club/Trable-frontend)
+Project frontend repository:[Trable-froutend](https://github.com/Web3-Club/Trable-frontend)
 
 [Demo](https://trable-fe.vercel.app/)
 
-### Key Dapp Features
+## Key Dapp Features
 
-- Support for fiat currency payments（支持法币支付）
+- Support for fiat currency payments
 
-确保旅游产品跨境crypto直接支付的便利性
 
-- Fast transactions anytime, anywhere（随时随地、快速交易）
+- Fast transactions anytime, anywhere
 
-简化虚拟货币转移过程（多链资产转换）
 
-- Save time and effort, lower loss（省时省力、更低损耗）
+- Save time and effort, lower loss
 
-结合Uniswap V4 降低多种token的swap成本，减少不必要的原始资产的转换和支付磨损
 
-- No need to consider personal foreign exchange restrictions（无需考虑个人外汇限制）
-
-不受传统银行外汇限额的影响，更流畅的旅行体验
-
-### Project demo
+- No need to consider personal foreign exchange restrictions
 
 
 
 
 
-## 测试
 
-项目包含了针对合约功能的测试用例，确保了各项功能的正确性和安全性。
+## Testing
+The project includes test cases for contract functionality, ensuring the correctness and security of each feature.
+
+
+## Project demo
 
 
 
