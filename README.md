@@ -104,22 +104,7 @@ To address these challenges, our project proposes a solution that optimizes the 
 
 
 
-
-对此我们的项目提出解决方案，优化资产转换流程，提升用户在Web3的体验。
-
-并且后疫情时代，旅游业蓬勃发展，Trable进入这个庞大的市场，旨在提供独特的价值主张。
-
-
-
-### 项目介绍｜Project Introduction
-
-Trable是一款针对加密货币支付的境外旅游产品Dapp应用。
-
-此应用通过集成Uniswap V4 等技术，依靠Polkadot生态中的Acala、Moonbean平台,有效地简化了用户使用加密货币订购境外旅游产品的流程，缩减消费者的所需时间 及降低DEX/CEX货币转换的成本。
-
-用户仅需选择所需的支付加密货币并完成签名，即可轻松在本Dapp预订境外旅游产品。我们解决了个人外汇额度限制和支付工具不足的问题，提供了必要的法币支付支持。同时，我们在链上实时监控资金流向，确保资金安全。在整个过程中，只会收取一次手续费，为用户的订购体验提供全面保障。
-
----
+### Project Introduction
 
 Trable is an overseas travel product Dapp application for cryptocurrency payment.
 
@@ -133,9 +118,6 @@ Users only need to select the required payment password and complete the signatu
 
 #### Uniswap V4
 
-在Uniswap V3中，给每个流动性资金池部署单独的合约，这样创建资金池和执行多池兑换的成本更高。
-
-Uniswap V4将所有资金池都存储在一个合约中，从而节省了大量的燃料成本，因为兑换将不再需要在不同的合约中的资金池之间转移代币。
 
 In Uniswap V3, each liquidity pool is deployed with its own individual contract, resulting in higher costs for creating pools and executing multi-pool exchanges.
 
@@ -184,7 +166,7 @@ The project includes test cases for contract functionality, ensuring the correct
 
 
 
-## 队员信息
+## Member
 
 GitHub:
 [@yanboishere](https://github.com/yanboishere)
