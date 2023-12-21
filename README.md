@@ -21,28 +21,13 @@
 ### English | [中文](https://github.com/Web3-Club/Trable/blob/main/docs/README_CN.md)
 
 
-## 前言
+## Introduction
 
+With the growing Web3 ecosystem, more and more people are entering the Web3 industry, leading to an increasing number of individuals using cryptocurrencies for payments of products and services. However, the process of completing a purchase has become cumbersome, especially when it involves overseas products, requiring multiple asset conversions. This process is time-consuming and incurs high costs.
 
-随着Web3生态的不断壮大，越来越多的人跻身Web3行业，自然有越来越多的人使用加密货币进行产品和服务的支付。
+Traditional crypto payment process for overseas travel products:
 
-但如今想要走完购买的全流程非常繁琐（尤其涉及到境外产品时），中间需经历数次的资产置换。
-
-这个过程不仅耗时，还会对用户原先的资产产生多次消耗，成本高昂。
-
-### 传统crypto支付境外旅游产品过程
-
-#### 链上-DEX-CEX-法币-非本国法币支付
-
-##### 弊端
-
-- ❌ DEX转换磨损
-   
-- ❌ CEX交易手续费  
-   
-- ❌ 出金汇率磨损
-  
-- ❌ 非本国发币支付货币转换费
+Cryptocurrency - DEX - CEX - Fiat currency - Foreign fiat currency payment
 
 
 #### 流程图演示
@@ -76,6 +61,18 @@ graph TD
   A3 -->|Asset Replacement| B -->|gas consumption<br>Waiting for the payment to be credited.| C3 -->|Asset Transfer| D -->|Rate Discount| D1 --> E
   E --> |Currency Conversion Fee| F
 ```
+
+##### 弊端
+
+- ❌ DEX转换磨损
+   
+- ❌ CEX交易手续费  
+   
+- ❌ 出金汇率磨损
+  
+- ❌ 非本国发币支付货币转换费
+
+
 
 
 #### Trable想要做到的
