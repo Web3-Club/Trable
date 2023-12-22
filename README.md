@@ -114,8 +114,8 @@ Users only need to select the required payment password and complete the signatu
 
 ### Basic technical architecture
 
-### Acala asset router
-The Acala Asset Router, integrated with XCM, provides users with a seamless and secure solution for transferring Polkadot-related assets to the EVM ecosystem, specifically targeting the use case of paying travel fees with DOT. By following the outlined six-step process, users can easily initiate and complete asset transfers, leveraging the capabilities of the Acala and Wormhole protocols, along with the cross-chain communication facilitated by XCM.
+#### Trable asset router
+The Trable Asset Router, based on Acala asset router, integrated with XCM, provides users with a seamless and secure solution for transferring Polkadot-related assets to the EVM ecosystem, specifically targeting the use case of paying travel fees with DOT. By following the outlined six-step process, users can easily initiate and complete asset transfers, leveraging the capabilities of the Acala and Wormhole protocols, along with the cross-chain communication facilitated by XCM.
 #### How it works?
 We aim to help users who want to pay their travel fee directly through polka related asset like DOT. Thus transfering polka asset from parachain to USDC on EVM is our primary target. 
 
