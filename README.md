@@ -208,7 +208,6 @@ https://youtu.be/ujFpy4i8USQ
 
 GitHub:
 [@yanboishere](https://github.com/yanboishere)
-[@s7iter](https://github.com/s7iter)
 [@Jerry](https://github.com/Web3-Jerry)
 [@zijin79](https://github.com/zijin79)
 [@nuttt](https://github.com/RbRe145)
