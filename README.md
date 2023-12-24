@@ -128,8 +128,28 @@ We utilize acala asset router to achieve the target. The following 6 steps descr
 5. After send the  token, router will be listening and waiting for VAA. After fetch it, the router interact with wormhole core contract。
 6. At the final step, user will sign a transaction with MetaMask that redeems the token on the target EVM chain.
 
-#### Uniswap V4
+#### cross chain code analyze
+Most of token transfer on Trable is `parachain -> EVM`, Thus we mainly use wormhole proctool.
+Here is cross chain tranfer code in `WormholeRouter.sol`
+``` solidity
+function routeImpl(ERC20 token) internal override {
+        bool approved = token.approve(_tokenBridgeAddress, token.balanceOf(address(this)));
+        require(approved, "WormholeRouter: approve failed");
 
+        ITokenBridge(_tokenBridgeAddress).transferTokens(
+            address(token),
+            token.balanceOf(address(this)),
+            _instructions.recipientChain,
+            _instructions.recipient,
+            _instructions.arbiterFee,
+            _instructions.nonce
+        );
+  }
+```
+`ITokenBridge` is the core of cross chain, you could find it in 
+https://github.com/Web3-Club/wormhole/blob/main/ethereum/contracts/bridge/interfaces/ITokenBridge.sol
+
+#### Uniswap V4
 
 In Uniswap V3, each liquidity pool is deployed with its own individual contract, resulting in higher costs for creating pools and executing multi-pool exchanges.
 
