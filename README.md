@@ -106,7 +106,7 @@ To address these challenges, our project proposes a solution that optimizes the 
 
 Trable is an overseas travel product Dapp application for cryptocurrency payment.
 
-This application integrates Uniswap V4 and other technologies and relies on the Acala and Moonbean platforms in the Polkadot ecosystem to effectively simplify the process for users to order overseas travel products using cryptocurrency, shorten the time required for consumers and reduce the cost of DEX/CEX currency conversion. .
+This application integrates Uniswap V4 and other technologies and relies in the Solana ecosystem to effectively simplify the process for users to order overseas travel products using cryptocurrency, shorten the time required for consumers and reduce the cost of DEX/CEX currency conversion. .
 
 Users only need to select the required payment password and complete the signature to easily book overseas travel products on this Dapp. We have solved the problems of personal foreign exchange limit limits and insufficient payment tools, and provided necessary legal currency payment support. At the same time, we monitor the flow of funds in real time on the chain to ensure the safety of funds. During the entire process, only one handling fee will be charged, providing comprehensive protection for users’ ordering experience.
 
@@ -114,8 +114,6 @@ Users only need to select the required payment password and complete the signatu
 
 ### Basic technical architecture
 
-#### Trable asset router
-The Trable Asset Router, based on Acala asset router, integrated with XCM, provides users with a seamless and secure solution for transferring Polkadot-related assets to the EVM ecosystem, specifically targeting the use case of paying travel fees with DOT. By following the outlined six-step process, users can easily initiate and complete asset transfers, leveraging the capabilities of the Acala and Wormhole protocols, along with the cross-chain communication facilitated by XCM.
 #### How it works?
 We aim to help users who want to pay their travel fee directly through polka related asset like DOT. Thus transfering polka asset from parachain to USDC on EVM is our primary target. 
 
@@ -126,7 +124,7 @@ We utilize acala asset router to achieve the target. The following 6 steps descr
 3. We will pop a signature request that prompts users to sign a transtraction from parachain to karura chain
 4. After the signature, we will send tokens to wormhole. In our code, the routeWormhole will achieve this.
 5. After send the  token, router will be listening and waiting for VAA. After fetch it, the router interact with wormhole core contract。
-6. At the final step, user will sign a transaction with MetaMask that redeems the token on the target EVM chain.
+6. At the final step, user will sign a transaction with Wallet （like MetaMask） that redeems the token on the target EVM chain.
 
 #### cross chain code analyze
 Most of token transfer on Trable is `parachain -> EVM`, Thus we mainly use wormhole proctool.
@@ -146,6 +144,7 @@ function routeImpl(ERC20 token) internal override {
         );
   }
 ```
+
 `ITokenBridge` is the core of cross chain, you could find it in 
 https://github.com/Web3-Club/wormhole/blob/main/ethereum/contracts/bridge/interfaces/ITokenBridge.sol
 
@@ -209,7 +208,6 @@ https://youtu.be/ujFpy4i8USQ
 GitHub:
 [@yanboishere](https://github.com/yanboishere)
 [@Jerry](https://github.com/Web3-Jerry)
-[@zijin79](https://github.com/zijin79)
 [@nuttt](https://github.com/RbRe145)
 
 ## Contect
